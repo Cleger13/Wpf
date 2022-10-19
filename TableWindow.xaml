@@ -1,0 +1,53 @@
+﻿<Window x:Class="Поликлиника.TableWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Поликлиника"
+        mc:Ignorable="d"
+        Title="TableWindow" Height="450" Width="800">
+    <Grid Background="LightGray">
+        <Label Content="Расписание на неделю" Height="60" Width="400" Margin="0,0,0,350" FontSize="36" 
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <Button Content="Назад" Click="Button_Click_Back" Height="40" Width="100" 
+                Margin="0,0,50,360" Background="BlueViolet" Foreground="White" 
+                HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Button Content="Открыть" Click="Button_Click_Open1" Height="40" Width="100" 
+                Margin="0,0,241,287" Background="BlueViolet" Foreground="White" 
+                VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+        <Button Content="Открыть" Click="Button_Click_Open2" Height="40" Width="100" 
+                Margin="0,0,241,242" Background="BlueViolet" Foreground="White"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Button Content="Открыть" Click="Button_Click_Open3" Height="40" Width="100" 
+                Margin="0,0,241,0" Background="BlueViolet" Foreground="White"
+                HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Button Content="Открыть" Click="Button_Click_Open4" Height="40" Width="100" 
+                Margin="0,0,241,152" Background="BlueViolet" Foreground="White" 
+                HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Button Content="Открыть" Click="Button_Click_Open5" Height="40" Width="100" 
+                Margin="0,0,241,107" Background="BlueViolet" Foreground="White"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Button Content="Открыть" Click="Button_Click_Open6" Height="40" Width="100" 
+                Margin="0,0,241,62" Background="BlueViolet" Foreground="White"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Label Content="Понедельник" Height="40" Width="200" Margin="0,0,435,287" FontSize="18" 
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Label Content="Вторник" Height="40" Width="200" Margin="0,0,435,242" FontSize="18"
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Label Content="Среда" Height="40" Width="200" Margin="0,0,435,0" FontSize="18"
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+               HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Content="Четверг" Height="40" Width="200" Margin="0,0,435,152" FontSize="18"
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Label Content="Пятница" Height="40" Width="200" Margin="0,0,435,107" FontSize="18"
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+        <Label Content="Суббота" Height="40" Width="200" Margin="0,0,435,62" FontSize="18" 
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+               HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>
